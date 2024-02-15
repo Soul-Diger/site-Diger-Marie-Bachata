@@ -54,7 +54,7 @@ const Home = () => {
             </h2>
           </div>
         </div>
-        <Buttons right={"/projet-1"} />
+        <Buttons right={"/cours-collectifs"} />
       </motion.div>
     </div>
   );

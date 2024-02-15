@@ -1,7 +1,7 @@
 export const activitysData = [
   {
     id: 1,
-    title: "Casta",
+    title: "Cours collectifs",
     date: "Janvier 2020",
     languages: ["React", "Php", "Sass"],
     infos:
@@ -11,7 +11,7 @@ export const activitysData = [
   },
   {
     id: 2,
-    title: "Lyon Béton",
+    title: "Cours particuliers",
     date: "Mars 2020",
     languages: ["Symfony", "Vue"],
     infos:
@@ -21,7 +21,7 @@ export const activitysData = [
   },
   {
     id: 3,
-    title: "Everpost",
+    title: "Show & Animations",
     date: "Avril 2020",
     languages: ["Wordpress", "Php", "React"],
     infos:
@@ -31,7 +31,7 @@ export const activitysData = [
   },
   {
     id: 4,
-    title: "Creative Dev",
+    title: "Ouverture de Bal",
     date: "Juillet 2020",
     languages: ["Vue", "Php"],
     infos:

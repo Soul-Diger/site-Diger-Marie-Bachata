@@ -52,7 +52,7 @@ const Contact = () => {
                   className="clipboard"
                   onClick={() => alert("Téléphone copié !")}
                 >
-                  06 67 71 92 76 
+                  06 67 71 92 76
                 </p>
               </CopyToClipboard>
             </div>
@@ -61,7 +61,10 @@ const Contact = () => {
           <div className="email">
             <div className="content">
               <h4>email</h4>
-              <CopyToClipboard text="digermarie.bachata@gmail.com" className="hover">
+              <CopyToClipboard
+                text="digermarie.bachata@gmail.com"
+                className="hover"
+              >
                 <p
                   style={{ cursor: "pointer" }}
                   className="clipboard"
@@ -79,7 +82,7 @@ const Contact = () => {
             <p>Patrick Diger - 2024</p>
           </div>
         </div>
-        <Buttons left={"/projet-4"} />
+        <Buttons left={"/ouverture-de-bal"} />
       </motion.div>
     </main>
   );

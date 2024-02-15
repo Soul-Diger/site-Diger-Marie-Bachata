@@ -13,7 +13,7 @@ const Activity3 = () => {
         <Navigation />
         <Logo />
         <Activity activityNumber={2} />
-        <Buttons left={"/projet-2"} right={"/projet-4"} />
+        <Buttons left={"/cours-prives"} right={"/ouverture-de-bal"} />
       </div>
     </main>
   );

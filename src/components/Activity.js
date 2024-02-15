@@ -60,7 +60,7 @@ const Activity = ({ activityNumber }) => {
     >
       <div className="activity-content">
         <h1>{currentactivity.title}</h1>
-        <p>{currentactivity.date}</p>
+        {/* <p>{currentactivity.date}</p> */}
 
         <ul className="languages">
           {currentactivity.languages.map((item) => (
